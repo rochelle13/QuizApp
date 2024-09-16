@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#B3FFFFFF"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="30dp"
+            android:text="QUIZ APP!"
+            android:textColor="#070707"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:text="Can You Rise To Marvel's Challenge?" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#070707"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+            android:text="ALREADY A MEMBER? LOGIN BELOW"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#070707"
+            android:text="Login" />
+    </LinearLayout>
+</LinearLayout>

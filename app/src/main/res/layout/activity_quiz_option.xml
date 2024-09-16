@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:background="#F5FFFFFF"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="CHOOSE A QUIZ:"
+            android:textColor="#070707"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/buttonQuiz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#070707"
+            android:text="HEROES" />
+
+        <Button
+            android:id="@+id/buttonQuiz2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#070707"
+            android:text="VILLAINS" />
+    </LinearLayout>
+</LinearLayout>
